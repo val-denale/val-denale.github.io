@@ -20,6 +20,27 @@ $font: "Quicksand", sans-serif;
     margin-bottom: 30px;
 }
 
+.cv {
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+    border-bottom-right-radius: $box-radius;
+    border-bottom-left-radius: $box-radius;
+    
+    background-color: lighten($background, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+        background-color: #131214;
+    }
+}
+
+.cv-text {
+    font-size: 15px;
+}
+
 .columns {
     margin-left: 0;
     margin-right: 0;
